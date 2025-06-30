@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!--Css Swiper Plugin-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!--Css personal-->
+    <link rel="stylesheet" href="assets/scss/style.css">
+
+</head>
+<body>
+<header>
+  <nav class="navbar navbar-expand-lg bg-body-secondary nav-underline">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse d-flex justify-content-center navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav mt-3">
+              <a class="nav-link me-5" aria-current="page" href="about-us.html"><h3>About Us</h3></a>
+              <a class="nav-link me-5" href="discography.html"><h3>Discography</h3></a>  
+              <a class="navbar-brand me-5" href="index.html"><h1>Aurora</h1></a>
+              <a class="nav-link me-5" href="events.html"><h3>Events</h3></a>
+              <a class="nav-link me-5" href="#"><h3>News</h3></a>
+              <a class="nav-link me-5" href="#"><h3>Shop</h3></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<main>
+  <div class="container-fluid imagen-fondo">
+      <div class="texto">
+          <div class="d-flex justify-content-end">
+            <h2 class="mt-5 me-2">My emotions are my superpower</h2>
+          </div>
+          <div class="d-flex justify-content-end mt-4">
+          <a href="about-us.html" class="boton">About Us</a> 
+          </div>
+      </div>
+  </div>
+  <div class="container mb-5 pb-5">
+    <div class="row">
+      <div class="col-md-12 d-flex justify-content-center mt-5">
+          <h2>Our best products</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-11 mt-2">
+        <ul class="nav nav-underline" id="myTab" role="tablist">
+          <li class="nav-item me-5" role="presentation">
+            <button class="nav-link active" id="accesories" data-bs-toggle="tab" data-bs-target="#accesories-tab" type="button" role="tab" aria-controls="accesories-tab"><h3>Accesories</h3></button>
+          </li>
+          <li class="nav-item me-5" role="presentation">
+            <button class="nav-link" id="tarot" data-bs-toggle="tab" data-bs-target="#tarot-tab" type="button" role="tab" aria-controls="tarot-tab"><h3>Tarot</h3></button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="dresses" data-bs-toggle="tab" data-bs-target="#dresses-tab" type="button" role="tab" aria-controls="dresses-tab"><h3>Dresses</h3></button>
+          </li>
+        </ul>
+
+        <div class="tab-content" id="myTabContent">
+          <!-- Accesories tab -->
+          <div class="tab-pane fade show active mt-2" id="accesories-tab" role="tabpanel" aria-labelledby="accesories" tabindex="0">
+            <div class="swiper mySwiper" id="swiper-accesorios">
+              <div class="swiper-wrapper" id="contenedor-accesorios">
+                <!-- Cards se insertarán aquí -->
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <!-- Tarot tab -->
+          <div class="tab-pane fade mt-2" id="tarot-tab" role="tabpanel" aria-labelledby="tarot" tabindex="0">
+            <div class="swiper mySwiper" id="swiper-tarot">
+              <div class="swiper-wrapper" id="contenedor-tarot">
+                <!-- Cards se insertarán aquí -->
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <!-- Dresses tab -->
+          <div class="tab-pane fade mt-2" id="dresses-tab" role="tabpanel" aria-labelledby="dresses" tabindex="0">
+            <div class="swiper mySwiper" id="swiper-vestidos">
+              <div class="swiper-wrapper" id="contenedor-vestidos">
+                <!-- Cards se insertarán aquí -->
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <a href="#" class="boton mt-4">Go to the shop</a>
+        </div>
+      </div>
+    </div>  
+  </div>
+
+
+  <div class="container pt-5 pb-5">
+  <div class="row align-items-stretch">
+
+    <div class="fondo col-md-4 d-flex align-items-center">
+      <div class="w-100 ps-4 pe-4">
+        <h2 class="mb-5">Upcoming events</h2>
+        <h3 class="mb-5">Concert of the year</h3>
+        <h4 class="mb-5"><span class="me-5">Budapest, Budapest</span><span>04 July - 2025</span></h4>
+        <h4 class="mb-5">19:00 hrs</h4>
+        <a href="events.html" class="boton">View all</a>
+      </div>
+    </div>
+    <div class="col-md-8 p-0">
+      <iframe class="w-100 h-100"
+        src="https://www.youtube.com/embed/vc6lQumV-I0?si=ENMPcdPlhqnZ20Iv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+</div>
+
+  <div class="container-fluid">
+    <div class="row my-5">
+      <div class="col-md-12 d-flex justify-content-center">
+        <h2>Relevant News</h2>
+      </div>
+    </div>
+    <div class="row d-flex justify-content-center">
+      <div class="col-md-3">
+        <div class="card transparente">
+          <div class="d-flex justify-content-between">
+            <h4>Interview</h4>
+            <h4>June<span class="fs-3 ms-2">30</span></h4>
+          </div>
+          <img src="assets/img/home/news/news-1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="mb-3">"I don't want to be a forest fairy anymore."</h3>
+            <a href="#" class="boton mt-3">Show more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card transparente">
+          <div class="d-flex justify-content-between">
+            <h4>Latest news</h4>
+            <h4>June<span class="fs-3 ms-2">28</span></h4>
+          </div>
+          <img src="assets/img/home/news/news-2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="mb-3">"Aurora's upcoming concerts in Europe"</h3>
+            <a href="#" class="boton mt-3">Show more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card transparente">
+          <div class="d-flex justify-content-between">
+            <h4>Shop</h4>
+            <h4>June<span class="fs-3 ms-2">26</span></h4>
+          </div>
+          <img src="assets/img/home/news/news-3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="mb-3">"New items for the shop"</h3>
+            <a href="#" class="boton mt-3">Show more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<footer class="fondo2 pt-5">
+<div class="row">
+  <div class="col-md-2 d-flex flex-column">
+    <ul>
+      <li class="mb-3"><a href=""><h4>INSTAGRAM</h4></a></li>
+      <li class="mb-3"><a href=""><h4>X/TWITTER</h4></a></li>
+      <li class="mb-3"><a href=""><h4>FACEBOOK</h4></a></li>
+    </ul>
+  </div>
+  <div class="col-md-2 d-flex flex-column">
+    <ul>
+      <li class="mb-3"><a href=""><h4>TIK TOK</h4></a></li>
+      <li class="mb-3"><a href=""><h4>YOUTUBE</h4></a></li>
+    </ul>
+  </div>
+  <div class="col-md-2 d-flex flex-column">
+    <ul>
+      <li class="mb-3"><a href=""><h4>SPOTIFY</h4></a></li>
+      <li class="mb-3"><a href=""><h4>APPLE MUSIC</h4></a></li>
+      <li class="mb-3"><a href=""><h4>DEZEER</h4></a></li>
+    </ul>
+  </div>
+  <div class="col-md-2 d-flex flex-column">
+    <ul>
+      <li class="mb-3"><a href=""><h4>AMAZON MUSIC</h4></a></li>
+    </ul>
+  </div>
+  <div class="col-md-2 d-flex flex-column">
+    <ul>
+      <li class="mb-3"><a href="">Terms of use</a></li>
+      <li class="mb-3"><a href="">Privacy policy</a></li>
+      <li class="mb-3"><a href="">Cookies</a></li>
+    </ul>
+  </div>
+  <div class="col-md-2 d-flex flex-column">
+    <ul>
+      <li class="mb-3"><i class="fa-regular fa-copyright" style="color: #ffffcc;"></i> AURORA MUSIC 2025</li>
+      <li class="mb-3">Web Developer and Design: Sayrina Luciano Jofré</li>
+    </ul>
+  </div>
+</div>
+
+</footer>
+
+
+
+<!--Llamado script BS-->
+<script src="assets/bootstrap-5.3.7/dist/js/bootstrap.bundle.js"></script>
+<!--Llamado Jquery-->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<!--llamado plugin Swiper-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!--llamado a font awesome-->
+<script src="https://kit.fontawesome.com/ac84549815.js" crossorigin="anonymous"></script>
+<!--Script personal-->
+<script src="assets/js/script.js"></script>
+</body>
+</html>

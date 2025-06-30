@@ -1,0 +1,161 @@
+@import '../bootstrap-5.3.7/scss/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #002200;
+background: linear-gradient(180deg, rgba(0, 34, 0, 1) 0%, rgba(0, 51, 0, 1) 25%, rgba(0, 68, 0, 1) 45%, rgba(0, 69, 0, 1) 65%, rgba(0, 68, 0, 1) 85%, rgba(0, 51, 0, 1) 100%) !important;
+overflow-x: hidden;
+}
+
+h1{
+    font-family: "Cinzel Decorative", serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+h2{
+    font-family: "Cinzel Decorative", serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+h3{
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+h4{
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+p{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.imagen-fondo{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+
+}
+.imagen-fondo::before{
+    content: "";
+    background-image: url(../img/home/banner/banner-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(2px);
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.texto{
+    position: relative;
+    z-index: 1;
+}
+
+.boton{
+    background-color: transparent;
+    color: #ffd700;
+    border: #ffd700 solid 3px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.boton:hover{
+    background-color: #ffd700;
+    color: #002200;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+
+li {
+    list-style-type: none !important;
+}
+.fondo{
+    background-color: rgba($color: #d9d9d9, $alpha: 0.3);
+    height: 600px;
+}
+
+.fondo2{
+    background-color: #002200;
+    margin-top: 50px;
+}
+
+.fondo3{
+    background-color: rgba($color: #d9d9d9, $alpha: 0.3);
+    height: 900px;
+}
+
+.borde{
+    border-top: #ffd700 solid 2px ;
+    border-bottom: #ffd700 solid 2px;
+    border-left: #ffd700 solid 2px;
+}
+
+.transparente{
+    background-color: transparent;
+    border: none;
+}
+
+.altura{
+    height: 400px;
+}
+
+.altura2{
+    height: 500px;
+    margin: 0;
+    padding: 0;
+}
+
+.altura3{
+    height: 500px !important;
+}
+
+.video-sobresaliente {
+  top: 20%;
+  height: 600px; 
+  left: 20%;
+  transform: translateY(-50px); 
+  z-index: 10;
+}
+
+//Estilos plugin Swiper
+.swiper {
+      width: 100% !important;
+      padding-top: 50px !important;
+      padding-bottom: 50px !important;
+    }
+
+    .swiper-slide {
+      background-position: center !important;
+      background-size: cover !important;
+    display: flex;
+    height: auto;
+    }
+
+    .swiper-slide .card {
+        display: block !important;
+        width: 100% !important;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }

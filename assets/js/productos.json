@@ -1,0 +1,201 @@
+{
+    "accesorios": [
+        {
+           "producto":{
+                "titulo": "Moon necklace",
+                "precio": "$12.99",
+                "imagen": "assets/img/home/mejores-productos/accesorios/producto-1.jpg",
+                "descripcion": "Cute necklace with purple stone" 
+           } 
+        },
+        {
+           "producto":{
+                "titulo": "Set of pink necklaces",
+                "precio": "$15.99",
+                "imagen": "assets/img/home/mejores-productos/accesorios/producto-2.jpg",
+                "descripcion": "Cute necklaces with pink stone" 
+           } 
+        },
+        {
+           "producto":{
+                "titulo": "Galaxy pendant",
+                "precio": "$8.99",
+                "imagen": "assets/img/home/mejores-productos/accesorios/producto-3.jpg",
+                "descripcion": "Eye-catching pendant with blue stone" 
+           } 
+        },
+        {
+           "producto":{
+                "titulo": "Ocean necklace",
+                "precio": "$9.98",
+                "imagen": "assets/img/home/mejores-productos/accesorios/producto-4.jpg",
+                "descripcion": "Beautiful beach necklace" 
+           } 
+        },
+        {
+           "producto":{
+                "titulo": "Flower necklace set",
+                "precio": "$12.99",
+                "imagen": "assets/img/home/mejores-productos/accesorios/producto-5.jpg",
+                "descripcion": "Beautiful and shiny flower necklaces" 
+           } 
+        },
+        {
+           "producto":{
+                "titulo": "Universe necklace",
+                "precio": "$20.99",
+                "imagen": "assets/img/home/mejores-productos/accesorios/producto-6.jpg",
+                "descripcion": "Purple necklace with details of the universe" 
+           } 
+        },
+        {
+           "producto":{
+                "titulo": "Moon hoops",
+                "precio": "$7.99",
+                "imagen": "assets/img/home/mejores-productos/accesorios/producto-7.jpg",
+                "descripcion": "Beautiful pink moon hoops" 
+           } 
+        },
+        {
+           "producto":{
+                "titulo": "Storm Cloud Pendant",
+                "precio": "$14.99",
+                "imagen": "assets/img/home/mejores-productos/accesorios/producto-8.jpg",
+                "descripcion": "Pendant reminiscent of rainy days" 
+           } 
+        }
+
+    ],
+    "tarot": [
+        {
+           "producto":{
+                "titulo": "Forest witch tarot",
+                "precio": "$29.99",
+                "imagen": "assets/img/home/mejores-productos/tarot/producto-1.jpg",
+                "descripcion": "Tarot with the charm of the forest" 
+           } 
+        },
+        {
+           "producto":{
+                "titulo": "Moon tarot",
+                "precio": "$20.99",
+                "imagen": "assets/img/home/mejores-productos/tarot/producto-2.jpg",
+                "descripcion": "Tarot with the beauty of the moon" 
+           } 
+        },
+        {
+           "producto":{
+                "titulo": "Insect tarot",
+                "precio": "$25.99",
+                "imagen": "assets/img/home/mejores-productos/tarot/producto-3.jpg",
+                "descripcion": "Tarot with the wisdom of insects" 
+           } 
+        },
+        {
+           "producto":{
+                "titulo": "Princesses tarot",
+                "precio": "$23.99",
+                "imagen": "assets/img/home/mejores-productos/tarot/producto-4.jpg",
+                "descripcion": "Tarot with the power of princesses" 
+           } 
+        },
+        {
+           "producto":{
+                "titulo": "Neon tarot",
+                "precio": "$35.99",
+                "imagen": "assets/img/home/mejores-productos/tarot/producto-5.jpg",
+                "descripcion": "Tarot that will guide you in the darkness" 
+           } 
+        },
+        {
+           "producto":{
+                "titulo": "Aurora tarot",
+                "precio": "$40.00",
+                "imagen": "assets/img/home/mejores-productos/tarot/producto-6.jpg",
+                "descripcion": "Aurora will accompany you on your way" 
+           } 
+        },
+        {
+           "producto":{
+                "titulo": "Dark tarot",
+                "precio": "$25.00",
+                "imagen": "assets/img/home/mejores-productos/tarot/producto-7.jpg",
+                "descripcion": "The darkness will ignite your shine" 
+           } 
+        },
+        {
+           "producto":{
+                "titulo": "Aurora tarot 2",
+                "precio": "$45.99",
+                "imagen": "assets/img/home/mejores-productos/tarot/producto-8.jpg",
+                "descripcion": "Aurora will make your heart bloom" 
+           } 
+        }
+    ],
+    "vestidos": [
+        {
+           "producto":{
+                "titulo": "Bright green dress",
+                "precio": "$50.99",
+                "imagen": "assets/img/home/mejores-productos/vestidos/producto-1.jpg",
+                "descripcion": "Fairytale dress" 
+           } 
+        },
+        {
+           "producto":{
+                "titulo": "Orange flared dress",
+                "precio": "$45.99",
+                "imagen": "assets/img/home/mejores-productos/vestidos/producto-2.jpg",
+                "descripcion": "Dress that will make you fly" 
+           } 
+        },
+        {
+           "producto":{
+                "titulo": "Black dress with roses",
+                "precio": "$58.99",
+                "imagen": "assets/img/home/mejores-productos/vestidos/producto-3.jpg",
+                "descripcion": "Beautiful dress with orange details" 
+           } 
+        },
+        {
+           "producto":{
+                "titulo": "Butterfly dress",
+                "precio": "$40.99",
+                "imagen": "assets/img/home/mejores-productos/vestidos/producto-4.jpg",
+                "descripcion": "Dress with purple and blue details" 
+           } 
+        },
+        {
+           "producto":{
+                "titulo": "Flower dress",
+                "precio": "$35.99",
+                "imagen": "assets/img/home/mejores-productos/vestidos/producto-5.jpg",
+                "descripcion": "Dress with bright colors and cute design" 
+           } 
+        },
+        {
+           "producto":{
+                "titulo": "Sun dress",
+                "precio": "$60.88",
+                "imagen": "assets/img/home/mejores-productos/vestidos/producto-6.jpg",
+                "descripcion": "It has the shine and elegance of the sun" 
+           } 
+        },
+        {
+           "producto":{
+                "titulo": "Rose dress",
+                "precio": "$42.99",
+                "imagen": "assets/img/home/mejores-productos/vestidos/producto-7.jpg",
+                "descripcion": "It has the strength of a rose" 
+           } 
+        },
+        {
+           "producto":{
+                "titulo": "Multicolor flared dress",
+                "precio": "$65.99",
+                "imagen": "assets/img/home/mejores-productos/vestidos/producto-8.jpg",
+                "descripcion": "Beautiful dress that will make you shine" 
+           } 
+        }
+    ]
+}
