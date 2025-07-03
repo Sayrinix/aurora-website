@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <!--Css personal-->
     <link rel="stylesheet" href="assets/scss/style.css">
+    <!--Css star rating-->
+    <link rel="stylesheet" href="assets/js/plugins/pryley-star-rating.js-519265b/dist/star-rating.css">
 
 </head>
 <body>
@@ -23,8 +25,8 @@
               <a class="nav-link me-5" href="discography.html"><h3>Discography</h3></a>  
               <a class="navbar-brand me-5" href="index.html"><h1>Aurora</h1></a>
               <a class="nav-link me-5" href="events.html"><h3>Events</h3></a>
-              <a class="nav-link me-5" href="#"><h3>News</h3></a>
-              <a class="nav-link me-5" href="#"><h3>Shop</h3></a>
+              <a class="nav-link me-5" href="news.html"><h3>News</h3></a>
+              <a class="nav-link me-5" href="shop.html"><h3>Shop</h3></a>
         </div>
       </div>
     </div>
@@ -48,7 +50,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-11 mt-2">
+      <div class="col-md-10 mt-2">
         <ul class="nav nav-underline" id="myTab" role="tablist">
           <li class="nav-item me-5" role="presentation">
             <button class="nav-link active" id="accesories" data-bs-toggle="tab" data-bs-target="#accesories-tab" type="button" role="tab" aria-controls="accesories-tab"><h3>Accesories</h3></button>
@@ -66,7 +68,7 @@
           <div class="tab-pane fade show active mt-2" id="accesories-tab" role="tabpanel" aria-labelledby="accesories" tabindex="0">
             <div class="swiper mySwiper" id="swiper-accesorios">
               <div class="swiper-wrapper" id="contenedor-accesorios">
-                <!-- Cards se insertarán aquí -->
+                <!-- Cards aquí -->
               </div>
               <div class="swiper-pagination"></div>
             </div>
@@ -76,7 +78,7 @@
           <div class="tab-pane fade mt-2" id="tarot-tab" role="tabpanel" aria-labelledby="tarot" tabindex="0">
             <div class="swiper mySwiper" id="swiper-tarot">
               <div class="swiper-wrapper" id="contenedor-tarot">
-                <!-- Cards se insertarán aquí -->
+                <!-- Cards aquí -->
               </div>
               <div class="swiper-pagination"></div>
             </div>
@@ -86,14 +88,14 @@
           <div class="tab-pane fade mt-2" id="dresses-tab" role="tabpanel" aria-labelledby="dresses" tabindex="0">
             <div class="swiper mySwiper" id="swiper-vestidos">
               <div class="swiper-wrapper" id="contenedor-vestidos">
-                <!-- Cards se insertarán aquí -->
+                <!-- Cards aquí -->
               </div>
               <div class="swiper-pagination"></div>
             </div>
           </div>
         </div>
         <div class="d-flex justify-content-center">
-          <a href="#" class="boton mt-4">Go to the shop</a>
+          <a href="shop.html" class="boton mt-4">Go to the shop</a>
         </div>
       </div>
     </div>  
@@ -128,41 +130,48 @@
     </div>
     <div class="row d-flex justify-content-center">
       <div class="col-md-3">
-        <div class="card altura3 transparente">
+        <div class="card transparente">
           <div class="d-flex justify-content-between">
             <h4>Interview</h4>
             <h4>June<span class="fs-3 ms-2">30</span></h4>
           </div>
-          <img src="assets/img/news/aurora-1.jpg" class="card-img-top h-100 w-100 object-fit-cover" alt="...">
+          <img src="assets/img/news/aurora-1.jpg" class="card-img-top altura4" alt="...">
           <div class="card-body">
             <h3 class="mb-3">"I don't want to be a forest fairy anymore."</h3>
-            <a href="#" class="boton mt-3">Show more</a>
+            <div class="mt-4">
+              <a href="news.html" class="boton">Show more</a>
+            </div>
+            
           </div>
         </div>
       </div>
       <div class="col-md-3">
-        <div class="card altura3 transparente">
+        <div class="card transparente">
           <div class="d-flex justify-content-between">
             <h4>Latest news</h4>
             <h4>June<span class="fs-3 ms-2">28</span></h4>
           </div>
-          <img src="assets/img/news/aurora-2.jpg" class="card-img-top h-100 w-100 object-fit-cover" alt="...">
+          <img src="assets/img/news/aurora-2.jpg" class="card-img-top altura4" alt="...">
           <div class="card-body">
             <h3 class="mb-3">"Aurora's upcoming concerts in Europe"</h3>
-            <a href="#" class="boton mt-3">Show more</a>
+            <div class="mt-4">
+              <a href="news.html" class="boton">Show more</a>
+            </div>
           </div>
         </div>
       </div>
       <div class="col-md-3">
-        <div class="card altura3 transparente">
+        <div class="card transparente">
           <div class="d-flex justify-content-between">
             <h4>Shop</h4>
             <h4>June<span class="fs-3 ms-2">26</span></h4>
           </div>
-          <img src="assets/img/news/aurora-3.jpg" class="card-img-top h-100 w-100 object-fit-cover" alt="...">
+          <img src="assets/img/news/aurora-3.jpg" class="card-img-top altura4" alt="...">
           <div class="card-body">
             <h3 class="mb-3">"New items for the shop"</h3>
-            <a href="#" class="boton mt-3">Show more</a>
+            <div class="mt-4">
+              <a href="news.html" class="boton">Show more</a>
+            </div>
           </div>
         </div>
       </div>
@@ -221,6 +230,8 @@
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 <!--llamado plugin Swiper-->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!--Llamado a plugin star rating-->
+<script src="assets/js/plugins/pryley-star-rating.js-519265b/dist/star-rating.js"></script>
 <!--llamado a font awesome-->
 <script src="https://kit.fontawesome.com/ac84549815.js" crossorigin="anonymous"></script>
 <!--Script personal-->

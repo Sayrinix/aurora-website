@@ -12047,9 +12047,57 @@ p {
   height: 100%;
 }
 
+.imagen-fondo2 {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.imagen-fondo2::before {
+  content: "";
+  background-image: url(../img/news/aurora-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: blur(2px);
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.imagen-fondo3 {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.imagen-fondo3::before {
+  content: "";
+  background-image: url(../img/productos/aurora-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: blur(1px);
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .texto {
   position: relative;
   z-index: 1;
+}
+
+.color1 {
+  color: #002200 !important;
 }
 
 .boton {
@@ -12073,6 +12121,26 @@ p {
   text-decoration: none;
 }
 
+.boton2 {
+  background-color: #002200;
+  color: #ffffcc;
+  border-radius: 50px;
+  margin: 5px;
+  padding: 5px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.boton2:hover {
+  background-color: #006600;
+  color: #ffd700;
+  border-radius: 50px;
+  margin: 5px;
+  padding: 5px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
 li {
   list-style-type: none !important;
 }
@@ -12090,6 +12158,10 @@ li {
 .fondo3 {
   background-color: rgba(217, 217, 217, 0.3);
   height: 900px;
+}
+
+.fondo4 {
+  background-color: #006600;
 }
 
 .borde {
@@ -12118,7 +12190,15 @@ li {
 }
 
 .altura4 {
+  height: 500px !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.altura5 {
   height: 300px !important;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .video-sobresaliente {
@@ -12127,6 +12207,10 @@ li {
   left: 20%;
   transform: translateY(-50px);
   z-index: 10;
+}
+
+.borde2 {
+  border-top: 2px solid #ffffcc;
 }
 
 .swiper {
