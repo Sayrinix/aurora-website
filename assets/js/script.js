@@ -1,3 +1,5 @@
+
+
 //Inicializar Plugin Swiper
     var swiper = new Swiper(".mySwiper", {
       effect: "coverflow",
@@ -91,6 +93,49 @@ Fancybox.bind("[data-fancybox]", {
       infinite: true, 
     },
 });
+
+//MODAL
+
+let modal = document.getElementById('modalBand')
+
+modal.addEventListener('show.bs.modal', function(event){
+    
+    let boton = event.relatedTarget
+    
+    document.querySelector('.modal-body').innerHTML = boton.getAttribute('data-bs-descripcion')
+    document.querySelector('.modal-title').textContent = boton.getAttribute('data-bs-titulo')
+})
+
+/*COSAS QUE NO FUNCIONARON
+
+//Plugin RATEYO!
+$(function () {
+    $("#rateYo").rateYo({
+      rating: 3.6,
+      fullStar: true,
+      onSet: function (rating) {
+        alert("You rated: " + rating);
+      }
+    });
+  });
+
+//TOAST
+const toastId = document.getElementById('toastBienvenida')
+
+  const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastId)
+  document.addEventListener('DOMContentLoaded', () => {
+    setTimeout(function () {
+       toastBootstrap.show(); 
+      }, 2000); 
+    
+  })
+*/
+
+
+
+
+
+
 
 
   
